@@ -1,0 +1,164 @@
+﻿
+@{
+    ViewBag.Title = "Faturalı Hatlara Kredi - Hat Sahiplerine Kefilsiz Kredi";
+}
+
+<div class="row">
+    @* Sol kısım *@
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        @Html.Action("FormPartial")
+    </div>
+    
+    @* Sağ kısım *@
+    <div class="col-lg-8 col-md-6 col-sm-12 mt-3">
+        <div class="text-center">
+            <img src="~/Content/img/web-cap-new.png" class="img-fluid" />
+        </div>
+        <div class="pt-2">
+            <p>
+                <h3 style="color:#e00000">
+                    <strong>Faturalı hat sahiplerine aynı gün kredi!</strong>
+                </h3>
+            </p>
+            <p>
+                Kara liste, kredi skoru, SGK primi gibi konular hiç önemli değil. Acil nakite sıkışanlar, avukatlık ve icralık olanlar&nbsp;<strong>cep faturanıza taksit yansıtılacak şekilde</strong>&nbsp;kredi alabilirsiniz. Son 6 ay faturalı hat sahibi olmanız kredi kullanmanız için yeterli.
+            </p>
+            <p>
+                Faturalı hat sahiplerine kefilsiz şartsız, <strong>12 ay taksitli</strong> faturalı hatta nakit imkanı. <strong>Faturaya ek</strong> olarak taksitlerini kolaylıkla ödeyebilirsiniz.
+            </p>
+            <p>
+                Faturalı hattınız size <strong>anında kredi</strong> imkanı sunar. Tamamen yasal ve güvenilir!
+            </p>
+        </div>
+        <div class="mt-4 pt-1 mb-4 pb-1" style="color:#e00000">
+            <h5>
+                <i class="bi bi-check-circle-fill"></i>&nbsp;ÖN ÖDEME YOK!
+            </h5>
+            <h5>
+                <i class="bi bi-check-circle-fill"></i>&nbsp;BANKA SİCİLİNE GEREK YOK!
+            </h5>
+            <h5>
+                <i class="bi bi-check-circle-fill"></i>&nbsp;KEFİLE GEREK YOK!
+            </h5>
+            <h5>
+                <i class="bi bi-check-circle-fill"></i>&nbsp;EVRAK DERDİ YOK!
+            </h5>
+            <h5>
+                <i class="bi bi-check-circle-fill"></i>&nbsp;AYNI GÜN PARANIZ HESABINIZDA!
+            </h5>
+        </div>
+        <div class="alert alert-success alert-dismissible fade show mt-4 pl-3 pr-3 pt-3 pb-1" role="alert">
+            <h6>
+                <strong>FATURALI HATLARA NAKİT KREDİ</strong>
+            </h6>
+            <p>
+                Acil ihtiyaçlarınızı düşünmekten sıkıldıysanız faturalı hatta kredi kullanabilirsiniz. Aylık faturanıza taksit yansıtılacak şekilde geri ödemelerini kolaylıkla yapabilirsiniz.
+            </p>
+        </div>
+
+        <!--Akordiyon başlıklar-->
+        <div class="accordion mt-4">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="baslik1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#icerik1" aria-expanded="false" aria-controls="icerik1">
+                        <i class="bi bi-question-circle-fill"></i>&nbsp;Faturalı Hatlara Kredi Nedir?
+                    </button>
+                </h2>
+                <div id="icerik1" class="accordion-collapse collapse" aria-labelledby="baslik1">
+                    <div class="accordion-body">
+                        <p>Başlıca İhtiyaçlarınız için gerekeni her zaman için bankadan sağlamanız mümkün olmaz. Özellikle kredi skoru düşük kişiler için bankalardan kredi almak zordur. Bu gibi kişilerin alternatifleri ise faturalı hatta borç transferi sağlayan firmalardır. Türkiye’de ki operatör firmalarının faturalı hatlar için uyguladığı “Faturaya Yansıtılan Ek Cihaz Ücreti” sistemi ile <strong>500 ile 5.000 TL.ye kadar</strong>&nbsp;bir cep telefonu almak için kullanabilirsiniz.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="baslik2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#icerik2" aria-expanded="false" aria-controls="icerik2">
+                        <i class="bi bi-question-circle-fill"></i>&nbsp;Taksit Sayısı Ne Kadar?
+                    </button>
+                </h2>
+                <div id="icerik2" class="accordion-collapse collapse" aria-labelledby="baslik2">
+                    <div class="accordion-body">
+                        <p>Faturalı hatlarda taksit sayısı 12 aydır.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="baslik3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#icerik3" aria-expanded="false" aria-controls="icerik3">
+                        <i class="bi bi-question-circle-fill"></i>&nbsp;Herhangi Bir Kefil Gerekiyor Mu?
+                    </button>
+                </h2>
+                <div id="icerik3" class="accordion-collapse collapse" aria-labelledby="baslik3">
+                    <div class="accordion-body">
+                        <p>Herhangi bir kefil göstermenize gerek kalmadan ihtiyacınız olanı olabilirsiniz. Birçok avantaja sahip sistem sayesinde krediden çok daha az maliyetle ilerleyebilirsiniz. Alacağınız tutara göre 24 aydan daha fazla taksitlendirme imkanı sunulabilir.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="baslik4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#icerik4" aria-expanded="false" aria-controls="icerik4">
+                        <i class="bi bi-question-circle-fill"></i>&nbsp;Sistem Yasal Mıdır?
+                    </button>
+                </h2>
+                <div id="icerik4" class="accordion-collapse collapse" aria-labelledby="baslik4">
+                    <div class="accordion-body">
+                        <p>Arkadaşınızdan aldığınız borç gibi yasal bir işlemdir. Sadece arada banka gibi kurumlar yoktur. Cihaz almak için anlaşmayı operatörler ya da operatörlerin finans kuruluşları ile yaparsınız. Ödeme için taksit miktarı; yapılacak sözleşmeye göre belirlenir. Gerçekleştirilen tüm işlemler yasal düzenlemelere uygun şekilde yapılır.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="baslik5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#icerik5" aria-expanded="false" aria-controls="icerik5">
+                        <i class="bi bi-question-circle-fill"></i>&nbsp;Bu Sistem Güvenilir Mi?
+                    </button>
+                </h2>
+                <div id="icerik5" class="accordion-collapse collapse" aria-labelledby="baslik5">
+                    <div class="accordion-body">
+                        <p>Sistem işleyişinde herhangi bir güvensizlik söz konusu değildir. Finansı sağlayacak operatör ile yapacağınız sözleşme dahilinde istediğiniz cihazı alıp satarak finansman sağlayabilirsiniz. Kararlaştırılan taksit miktarı ve ödeme limitine uyarak, borcu kapatabilirsiniz.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="baslik6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#icerik6" aria-expanded="false" aria-controls="icerik6">
+                        <i class="bi bi-question-circle-fill"></i>&nbsp;Size Ulaşacağım Telefon Numarası Neden Yok?
+                    </button>
+                </h2>
+                <div id="icerik6" class="accordion-collapse collapse" aria-labelledby="baslik6">
+                    <div class="accordion-body">
+                        <p>Web sitemize giren bir çok kullanıcı telefonla başvuru ve bilgi almak istemektedir. Bu sırada web sitemizden gelen başvuru sorgularının yapılabilmesi telefon trafiği nedeniyle imkansız hale gelmektedir. Biz başvuru yapıp ve sonucu olumlu müşterilere mutlaka telefonla geri dönüş yapıyoruz, bilgilendirme de sağlıyoruz. Bu sayede gerçekten faturalı hattına kredi alabilecek kişilerin bir an önce ihtiyaçlarını karşılaması noktasında hızla işlemlerinin tamamlanması sağlanıyor.&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="baslik7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#icerik7" aria-expanded="false" aria-controls="icerik7">
+                        <i class="bi bi-question-circle-fill"></i>&nbsp;İşyerinize Gelebilir Miyim?
+                    </button>
+                </h2>
+                <div id="icerik7" class="accordion-collapse collapse" aria-labelledby="baslik7">
+                    <div class="accordion-body">
+                        <p>İstanbul’da yaşayanlar; başvuruları sonrasında eğer kredisi olumluysa iş yerimize gelerek de kredisini kullanabilir.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="baslik8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#icerik8" aria-expanded="false" aria-controls="icerik8">
+                        <i class="bi bi-question-circle-fill"></i>&nbsp;Başvuru Yaptım Neden Geri Dönüş Olmadı?
+                    </button>
+                </h2>
+                <div id="icerik8" class="accordion-collapse collapse" aria-labelledby="baslik8">
+                    <div class="accordion-body">
+                        <p>Başvuru bilgilerinizin sistemde sorgulanması sonucu maalesef operatörün vermiş olduğu kredi puanı olmayabilir. Bu yüzden olumlu olmadığından size geri dönüş yapılmamış olabilir.&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <footer>
+        &nbsp;
+    </footer>
+</div>

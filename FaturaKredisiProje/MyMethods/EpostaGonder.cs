@@ -16,12 +16,12 @@ namespace FaturaKredisiProje.MyMethods
             {
                 MailMessage mailMessage = new MailMessage();
                 SmtpClient smtp = new SmtpClient();
-                smtp.Credentials = new NetworkCredential("info@nakitfaturanda.com", "MazluM7272!");
+                smtp.Credentials = new NetworkCredential("info@hesaptanakit.com", "D12#p6to");
                 smtp.Port = 587;
-                smtp.Host = "mail.nakitfaturanda.com";
+                smtp.Host = "mail.hesaptanakit.com";
                 smtp.EnableSsl = false;
                 mailMessage.IsBodyHtml = true;
-                mailMessage.From = new MailAddress("info@nakitfaturanda.com");
+                mailMessage.From = new MailAddress("info@hesaptanakit.com");
                 mailMessage.To.Add("chrelloss34@gmail.com");
                 mailMessage.Subject = "Yeni Kredi Başvurusu İşlemi - " + p.AdSoyad;
                 mailMessage.Body = "Aşağıda bilgileri bulunan kişi, faturalı hattı için bireysel kredi başvurusunda bulunmak istemektedir.<br/><br/>" +
